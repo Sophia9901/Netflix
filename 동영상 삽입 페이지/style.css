@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    align-items: flex;
+}
+
+.container .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container .header h1 a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.container .video-warp{
+    width: 60%;
+    height: auto;
+    padding: 100px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.container .video-warp video{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.container .video-text h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.container .video-text p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: black;
+    text-align: right;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .text-warp{
+    width: 500px;
+    height: auto;
+    padding:150px 60px;
+    position: absolute;
+    text-align: center;
+    margin-right: 60px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.container .text-warp .subject{
+    padding: 20px;
+}
+
+.container .text-warp .subject h2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .text-warp .subject h2 a:hover{
+    color: rgb(187, 187, 187);
+}
+
+.container .text-warp .subject hr{
+    border: solid 2px black;
+    width: 15%; 
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .text-warp .list{
+    padding: 40px;
+}
+
+.container .text-warp .list a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .text-warp .list a:hover{
+    color: rgb(208, 208, 208);
+}
+
+.footer hr{
+    border: solid 1px rgb(104, 104, 104);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .nav{
+    align-items: flex;
+    margin-bottom: 20px;
+}
+
+.footer .nav a{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(92, 92, 92);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer p{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(92, 92, 92);
+    font-family: 'Source Sans Pro', sans-serif;
+}
